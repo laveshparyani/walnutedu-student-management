@@ -9,6 +9,7 @@ A custom Frappe application for managing student information at WalnutEdu. This 
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [Video Explanation](#-video-explanation)
 - [Features](#features)
 - [System Requirements](#system-requirements)
 - [Installation](#installation)
@@ -33,6 +34,14 @@ The Student Management System is a custom Frappe application designed specifical
 - Access student information through an intuitive web interface
 
 This project was developed as part of a technical assessment for WalnutEdu's internship program, demonstrating proficiency in Frappe framework development, system administration, and custom application creation.
+
+## 📹 Video Explanation
+
+Watch this video to see a demonstration of the Student Management System:
+
+[![Video Thumbnail](https://img.youtube.com/vi/hXrQZdH23DI/maxresdefault.jpg)](https://youtu.be/hXrQZdH23DI)
+
+**Click the thumbnail above to watch the video on YouTube**
 
 ## ✨ Features
 
