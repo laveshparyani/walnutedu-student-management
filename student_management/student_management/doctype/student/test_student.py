@@ -35,7 +35,7 @@ class TestStudent(FrappeTestCase):
 	def test_duplicate_email_is_rejected(self):
 		first = make_student().insert()
 		duplicate = make_student(email=first.email)
-		self.assertRaises(frappe.DuplicateEntryError, duplicate.insert)
+		self.assertRaises(frappe.UniqueValidationError, duplicate.insert)
 
 	def test_enrollment_before_birth_is_rejected(self):
 		student = make_student(date_of_birth="2015-06-01", enrollment_date="2014-01-01")
