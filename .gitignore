@@ -6,7 +6,7 @@ __pycache__
 node_modules
 .DS_Store
 *.log
-*.Zone.Identifier
+*Zone.Identifier
 .env
 .vscode/
 .idea/
