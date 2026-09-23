@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest a new feature, report or change
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to do, and what gets in the way today?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How should it work? Mockups or examples help.
+    validations:
+      required: true
+  - type: input
+    id: requested_by
+    attributes:
+      label: Requested by
+      placeholder: Name / team / meeting reference
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context

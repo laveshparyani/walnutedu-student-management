@@ -1,0 +1,41 @@
+name: Bug report
+description: Something is not working as expected
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See error
+    validations:
+      required: true
+  - type: dropdown
+    id: site
+    attributes:
+      label: Site
+      options:
+        - Local bench
+        - Own server
+    validations:
+      required: true
+  - type: input
+    id: doc
+    attributes:
+      label: Document / DocType affected
+      placeholder: e.g. Student WNUT-2025-00001
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error message or traceback
+      description: Paste from the error dialog or Error Log. Remove any personal data first.
+      render: shell
